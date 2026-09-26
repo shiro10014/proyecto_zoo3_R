@@ -1,0 +1,18 @@
+---
+title: "Análisis de las poblaciones de *Quiscalus Mexicanus* y *Ortalis Garrula* en el área urbana y distrital de Barranquilla entre 2015-2025"
+author: "Nelson Pulecio"
+date: "last-modified"
+toc: true 
+format:
+  html:
+    theme: journal
+editor: visual
+lang: es
+code-fold: true
+---
+
+## Introducción
+
+
+
+

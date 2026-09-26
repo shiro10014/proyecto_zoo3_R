@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-Articulos /
-.wkt
+Articulos/
+*.wkt
 documento_sin_titulo_files/
-.html
+*.html
