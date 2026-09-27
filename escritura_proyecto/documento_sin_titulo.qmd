@@ -5,12 +5,12 @@ date: "last-modified"
 toc: true 
 format:
   html:
+    code-fold: true
     theme: journal
     embed-resources: true
     css: estilos.css #esto justifica todo el texto para renderizado en HTML
 editor: visual
 lang: es
-code-fold: true
 bibliography: referencias.bib #archivo de referencias desde zotero
 ---
 
@@ -31,3 +31,29 @@ Actualmente *Ortalis garrula* es considerada una especie sombrilla para la regi�
 La ciudad de Barranquilla ubicada en la ribera occidental del río Magdalena, perteneciente a la región caribe y al departamento del Atlántico tiene coordenadas aproximadas de $10,96°N$ y $74°O$ a 18 metros sobre el nivel del mar. [@zunigaCRECIMIENTOMANCHAURBANA]
 
 El área distrital de Barranquilla está conformada tanto por su zona urbanizada, delimitada por sus más de 180 barrios como por su zona no urbanizada, llena de extensiones de flora propia del bosque seco tropical que caracteriza a la región, sitios a donde aún no ha llegado la expansión urbana. Tanto en la zona urbana como en la no urbana se encuentre el suelo en protección, áreas las cuales según el @PlanOrdenamientoTerritorial vigente desde 2012 hasta 2032 son áreas protegidas por diversas causas como puede serlo cuerpos hídricos, áreas de protección litoral, área de protección por amenaza etc. Para efectos prácticos las áreas de interés para el estudio son las áreas categorizadas como zona de ecosistemas estratégicos (ZEE), zona de recuperación ambiental (ZRA) y los cuerpos de hídricos propios de la ciudad aparte de la zona urbana y no urbanizada de la ciudad. (ver figura 1)
+
+```{r}
+#| message: false
+
+library(ggplot2)
+library(sf)
+library(dplyr)
+library(ggspatial)
+
+bq_distrital <- st_read("datos_espaciales/bq_distrito.geojson", quiet = TRUE)
+bq_barrios <- st_read("datos_espaciales/bq_barrios.geojson", quiet = TRUE)
+bq_arroyos <- st_read("datos_espaciales/bq_arroyos.json", quiet = TRUE)
+bq_zee <- st_read("datos_espaciales/ZEE.geojson", quiet = TRUE)
+bq_zra <- st_read("datos_espaciales/ZRA.geojson", quiet = TRUE)
+
+ggplot()+
+  geom_sf(data = bq_distrital, fill = "darkseagreen", color = "black")+
+  geom_sf(data = bq_barrios, color = "white", fill = "darkseagreen3")+
+  geom_sf(data = bq_arroyos, color = "cornflowerblue")+
+  geom_sf(data = bq_zee, fill = "chartreuse2")+
+  geom_sf(data = bq_zra, fill = "chartreuse4")+
+  ggtitle("Mapa de la ciudad de barranquilla", subtitle = "Contiene los ZRA, ZEE y arroyos")+
+  xlab("Longitud") + ylab("Latitud")+
+  annotation_north_arrow(location='tr')+
+  annotation_scale()
+```
