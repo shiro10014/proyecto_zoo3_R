@@ -1,5 +1,5 @@
 ---
-title: "Análisis de las poblaciones de *Quiscalus Mexicanus* y *Ortalis Garrula* en el área urbana y distrital de Barranquilla entre 2015-2025 **NOMBRE EN DISCUSIÓN** (Propuesta de proyecto)"
+title: "Análisis multitemporal (2015-2025) de la frecuencia de avistamiento de *Ortalis garrula* en la región Caribe colombiana"
 author: "Nelson Pulecio"
 date: "last-modified"
 toc: true 
@@ -16,11 +16,7 @@ bibliography: referencias.bib #archivo de referencias desde zotero
 
 ## Introducción
 
-La *Quiscalus mexicanus* comúnmente llamada Maria Mulata figura como una de las especies más representativas de la ciudad de Barranquilla, Atlántico, de tal forma que hace parte de la matriz del paisaje urbano. Morfologicamente la *Quiscalus mexicanus* destaca por un plumaje brillante de tonalidad oscura para los machos y para las hembras una tonalidad marrón y con plumas de tonalidad clara en las cejas y vientre, a diferencia de otras especies como *Quiscalus lugubris* la cual es significativamente más pequeña y con una cola más corta. Aunque no existe un consenso de cuando ni como se dio la introducción de *Quiscalus mexicanus* al departamento del atlántico, @dugandHttpWwwjstororgAVES1947 resalta que existen registros en la ciudad de Barranquilla al menos desde 1895. Dugand la describe como una especie con preferencia por los cuerpos de agua como Boca de Cenizas, Salgar o Puerto Colombia, también resalta su alta frecuencia en las poblaciones, en barrios como el Prado y la zona mercantil de Barranquilla, donde bajaba a comer los desperdicios de las cocinas.
-
-Este aparente comportamiento oportunista y alta capacidad de adaptación al entorno urbano y rural al día de hoy tiene soporte en diversos estudios relacionados a su alimentación. En México, por ejemplo, se ha reportado una gran variedad de alimentos como cangrejos de la especie *Uca beebei*, granos, frutas, geckos, renacuajos de anuro, neonatos de tortuga marina de la especie *Lepidochelys olivacea*, golondrinas de la especie *Hirundo rustica* e incluso se reporta alimentación por parte de los insectos muertos adheridos a las matriculas de los autos, alimentos industrializados y comportamientos como forrajeo de bolsas de basura. [@cupul-maganaObservacionesGeneralesDieta2018; @gurrolahidalgoDosNuevosRegistros2009; @cannNOTASCAMPOFIELD2022]
-
-Por otro lado, la *Ortalis garrula*, cuyo nombre común es guacharaca, fue clasificada por primera vez por Humboldt en 1805 [@OLIVARES_1966] y se considera uno de los símbolos representativos de la región caribe al ser una especie endémica colombiana (solo tiene distribución en Colombia) cuyas poblaciones están mayormente centradas en la región caribe, donde tiene fuertes relaciones con la cultura donde, por ejemplo, @peraltaagudeloBrujasTalismanesOtras2025 resalta que las plumas de *Ortalis garrula* se consideran de buena suerte entre las comunidades campesinas del rió Sinú. aunque esta ave también tiene distribución en la región andina y reducidas poblaciones en la región pacifico. [@ChestnutwingedChachalacaEBird] a nivel morfológico *Ortalis garrula* es un ave de tamaño mediano la cual no tiene dimorfismo sexual (machos y hembras son morfologicamente iguales) y se caracteriza por un plumaje de tonos marrones en el lomo, tonos rojizos bajo el pico y las alas así como tonos blanquecinos en el vientre y las patas.
+La *Ortalis garrula*, cuyo nombre común es guacharaca, fue clasificada por primera vez por Humboldt en 1805 [@OLIVARES_1966] y se considera uno de los símbolos representativos de la región Caribe al ser una especie endémica colombiana (solo tiene distribución en Colombia) cuyas poblaciones están mayormente centradas en la región Caribe, donde tiene fuertes relaciones con la cultura, por ejemplo, @peraltaagudeloBrujasTalismanesOtras2025 resalta que las plumas de *Ortalis garrula* se consideran de buena suerte entre las comunidades campesinas del rió Sinú. aunque esta ave también tiene distribución en la región Andina y reducidas poblaciones en la región Pacífica. [@ChestnutwingedChachalacaEBird] a nivel morfológico *Ortalis garrula* es un ave de tamaño mediano la cual no tiene dimorfismo sexual (machos y hembras son fisicamente iguales) y se caracteriza por un plumaje de tonos marrones en el lomo, tonos rojizos bajo el pico y las alas así como tonos blanquecinos en el vientre y las patas.
 
 Actualmente *Ortalis garrula* es considerada una especie sombrilla para la región caribe, lo que quiere decir que el cuidado de las poblaciones de esta ave y su habitad implica un cuidado de diversas especies y ecosistemas asociados a ella. Respecto a su alimentación, @setina3ARTICULOSNOTAS2012 resalta que su dieta se compone de los frutos de *Brosimum utile, Eugenia oblongifolia, Ficus sp., Miconia sp., Psychotria sp., y Bellusia sp.* junto con el consumo de insectos, alimentación relacionada a su preferencia por bosques primarios y secundarios a diferencias de zonas en recuperación o cultivos agrícolas. Aunque *Ortalis garrula* está clasificada como LC, es decir, preocupación menor por la UICN [@IUCNRedList] se considera según los criterios de la AICAS (Áreas importantes para la conservación de las aves y la biodiversidad) como una especie de distribución restringida.
 
@@ -28,32 +24,4 @@ Actualmente *Ortalis garrula* es considerada una especie sombrilla para la regi�
 
 ### Área de estudio
 
-La ciudad de Barranquilla ubicada en la ribera occidental del río Magdalena, perteneciente a la región caribe y al departamento del Atlántico tiene coordenadas aproximadas de $10,96°N$ y $74°O$ a 18 metros sobre el nivel del mar. [@zunigaCRECIMIENTOMANCHAURBANA]
-
-El área distrital de Barranquilla está conformada tanto por su zona urbanizada, delimitada por sus más de 180 barrios como por su zona no urbanizada, llena de extensiones de flora propia del bosque seco tropical que caracteriza a la región, sitios a donde aún no ha llegado la expansión urbana. Tanto en la zona urbana como en la no urbana se encuentre el suelo en protección, áreas las cuales según el @PlanOrdenamientoTerritorial vigente desde 2012 hasta 2032 son áreas protegidas por diversas causas como puede serlo cuerpos hídricos, áreas de protección litoral, área de protección por amenaza etc. Para efectos prácticos las áreas de interés para el estudio son las áreas categorizadas como zona de ecosistemas estratégicos (ZEE), zona de recuperación ambiental (ZRA) y los cuerpos de hídricos propios de la ciudad aparte de la zona urbana y no urbanizada de la ciudad. (ver figura 1)
-
-```{r}
-#| message: false
-
-library(ggplot2)
-library(sf)
-library(dplyr)
-library(ggspatial)
-
-bq_distrital <- st_read("datos_espaciales/bq_distrito.geojson", quiet = TRUE)
-bq_barrios <- st_read("datos_espaciales/bq_barrios.geojson", quiet = TRUE)
-bq_arroyos <- st_read("datos_espaciales/bq_arroyos.json", quiet = TRUE)
-bq_zee <- st_read("datos_espaciales/ZEE.geojson", quiet = TRUE)
-bq_zra <- st_read("datos_espaciales/ZRA.geojson", quiet = TRUE)
-
-ggplot()+
-  geom_sf(data = bq_distrital, fill = "darkseagreen", color = "black")+
-  geom_sf(data = bq_barrios, color = "white", fill = "darkseagreen3")+
-  geom_sf(data = bq_arroyos, color = "cornflowerblue")+
-  geom_sf(data = bq_zee, fill = "chartreuse2")+
-  geom_sf(data = bq_zra, fill = "chartreuse4")+
-  ggtitle("Mapa de la ciudad de barranquilla", subtitle = "Contiene los ZRA, ZEE y arroyos")+
-  xlab("Longitud") + ylab("Latitud")+
-  annotation_north_arrow(location='tr')+
-  annotation_scale()
-```
+Hooloooaaaaa jajadjad xddddd
